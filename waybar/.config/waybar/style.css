@@ -1,0 +1,38 @@
+.modules-left {
+    margin:0px 0px 0px 16px;
+}
+
+.modules-center {
+    margin:0px 0px 0px 0px;
+}
+
+.modules-right {
+    margin:0px 16px 0px 0px;
+}
+
+#workspaces button {
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0px 3px;
+    margin: 6px 3px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #fff;
+}
+
+#workspaces button.active {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #ececec;
+}
+
+#workspaces button:hover {
+    border-radius: 15px;
+    box-shadow: none;
+}
+
+#hardware {
+    /* background-color: #000; */
+}
