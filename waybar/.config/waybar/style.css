@@ -36,3 +36,7 @@
 #hardware {
     /* background-color: #000; */
 }
+
+#custom-notification {
+  font-family: "NotoSansMono Nerd Font";
+}
