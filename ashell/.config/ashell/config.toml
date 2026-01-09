@@ -4,9 +4,9 @@ position = "Top"
 app_launcher_cmd = "walker"
 
 [modules]
-left = [ "Clock", "Tray", "Updates", "appLauncher", "WindowTitle" ]
+left = [ "Clock", "Tray" ]
 center = [ "Workspaces", "Privacy" ]
-right = [ "MediaPlayer", "Settings", "SystemInfo", ["kernelVersion", "hyprlandVersion"], "notifications" ]
+right = [ "SystemInfo", "Settings", "notifications" ]
 
 [updates]
 check_cmd = "checkupdates; paru -Qua"
